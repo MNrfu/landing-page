@@ -84,3 +84,125 @@ img {
     display: flex;   
  
 }
+
+.container-text {
+    display: flex;
+    justify-content: center;
+    background-color: burlywood;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold; 
+}
+
+.container {
+    display: flex;
+    height: 300px;
+    background-color: burlywood;
+    justify-content: center;
+   
+    
+
+    
+}
+
+.big-square {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    padding: 50px;
+    flex-wrap: wrap;
+    max-width: 150px;
+    font-size: 15px;
+    font-weight: bold;
+    
+    
+
+    
+}
+
+.square {
+    display: flex;  
+    height: 100px;
+    border: 4px solid blueviolet;
+    border-radius: 10px;
+       
+}
+
+
+.inspiring-quote {
+    height: 350px;
+    background-color: darkseagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+.the-quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    font-size: 36px;
+    font-style:italic;
+}
+.name-sign {
+    display: flex;
+    align-self: flex-end;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    font-size: 36px;
+}
+
+.color-box {
+    height: 200px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup-bar {
+    height: 150px;
+    background-color: teal;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1000px;
+    border: solid black 3px;
+    border-radius: 10px;
+    
+   
+    
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    flex-wrap: wrap;
+    color: white;
+}
+.boldpara {
+    font-size: 20px;
+    font-weight: bold;
+
+
+}
+.signupbutton {
+    height: 30px;
+    width: 100px;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 5px; 
+    color: white;
+}
+.footer {
+    display: flex;
+    height: 87px;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    font-size: 20px;
+  }
